@@ -1,0 +1,63 @@
+body {
+  background-color:white;
+background-image: -webkit-linear-gradient(left, rgba(200,0,0,.5) 50%, transparent 50%),
+-webkit-linear-gradient(rgba(200,0,0,.5) 50%, transparent 50%);
+background-image: -moz-linear-gradient(left, rgba(200,0,0,.5) 50%, transparent 50%),
+-moz-linear-gradient(rgba(200,0,0,.5) 50%, transparent 50%);
+background-image: -o-linear-gradient(left, rgba(200,0,0,.5) 50%, transparent 50%),
+-o-linear-gradient(rgba(200,0,0,.5) 50%, transparent 50%);
+background-image: linear-gradient(to right, rgba(200,0,0,.5) 50%, transparent 50%),
+linear-gradient(rgba(200,0,0,.5) 50%, transparent 50%);;;
+background-size:50px 50px;
+}
+
+.heading {
+  width: 100;
+  margin: 15px auto;
+  padding: 0;
+  background: rgba(0, 0, 0, 0.5)
+}
+
+h1 {
+  color: chartreuse;
+  text-shadow: 2px 2px black;
+}
+
+h3 {
+  color: khaki;
+  text-shadow: 2px 2px black;
+  padding-bottom: 10px;
+}
+
+.articles {
+  border: solid;
+  text-align: center;
+  background: white;
+}
+.article {
+  width: 150px;
+  display: inline-block;
+  margin: 20px 4% 0 4%;
+}
+
+.post-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  border: 1px solid;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 0;
+  margin: 5px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.upvotes {
+  font-size: 1.25em;
+}
+
+
+
